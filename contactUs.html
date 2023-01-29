@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="contactUs-style.css">
+    <script src="https://kit.fontawesome.com/17a4c1e81d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="contact">
@@ -16,21 +17,27 @@
         <div class="container">
             <div class="contactInfo">
                 <div class="box">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
                     <div class="text">
                         <h3>Address:</h3>
                         <p>4759 sakina road, <br> near tourism univesity <br> 55608</p>
                     </div>
                 </div>
                 <div class="box">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
                     <div class="text">
                         <h3>Phone:</h3>
                         <p>0774284774</p>
                     </div>
                 </div>
                 <div class="box">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
                     <div class="text">
                         <h3>Email:</h3>
                         <p>jrcollege4759@gmail.com</p>
@@ -40,26 +47,30 @@
                 
 
             <div class="contactForm">
-                <form>
+                <form action="" method="get">
                     <h2>Send message</h2>
                     <div class="inputBox">
-                        <input type="text" name="" placeholder="Full Name"  required="required">
+                        <input type="text" name="" id="username" placeholder="Username"  autocomplete="off" >
                     </div>
 
                     <div class="inputBox">
-                        <input type="email" name="" placeholder="Email" required="required">
+                        <input type="email" name="" id="email" placeholder="Email" autocomplete="off">
                     </div>
 
                     <div class="inputBox">
-                        <textarea placeholder="Enter your message here..." required="required"></textarea>
+                        <textarea id="textbox" placeholder="Enter your message here..." required="required"></textarea>
                     </div>
 
                     <div class="inputBox">
-                        <input type="submit" name=""  value="Send">
+                        <a href="homePage.html">
+                            <input type="submit" name="" id="button"  value="Send">
+                        </a>
                     </div>
                 </form>
             </div>
         </div>
     </div>
+
+    <script src="contactUs.js"></script>
 </body>
 </html>

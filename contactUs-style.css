@@ -20,8 +20,8 @@
     margin-bottom: 50px;
 }
 .contact .content h2 {
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 50px;
     color: white;
 }
 .contact .content p {
@@ -54,18 +54,18 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 22px;
+    font-size: 35px;
 }
 .container .contactInfo .box .text {
     display: flex;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     flex-direction: column;
-    font-weight: 300;
 }
 .container .contactInfo .box .text h3{
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 50px;
     color: black;
 }
 .contactForm {
